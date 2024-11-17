@@ -15,11 +15,11 @@ int main() {
   do {
     Karyawan karyawan;
     cout<<"\n=====[ Data Karyawan ]====="<<endl;
-    cout<<"Nama Karyawan : ";
+    cout<<"Nama Karyawan     : ";
     cin>>karyawan.nama;
-    cout<<"Alamat        : ";
+    cout<<"Alamat            : ";
     cin>>karyawan.alamat;
-    cout<<"Jumlah Jam Kerja : ";
+    cout<<"Jumlah Jam Kerja  : ";
     cin>>karyawan.jmkrja;
     
     int jmkrjanrml=min(karyawan.jmkrja, 7);
